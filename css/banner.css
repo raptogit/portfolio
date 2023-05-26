@@ -18,7 +18,7 @@ section.banner {
 }
 
 section.banner .developer-bio {
-    margin: auto 3rem;
+    margin: auto 10rem;
 }
 
 section.banner .developer-bio p {
@@ -26,6 +26,14 @@ section.banner .developer-bio p {
     font-size: 1.8rem;
     font-weight: 500;
     color: var(--lightgrey);
+    line-height: 0;
+}
+
+section.banner .developer-bio span {
+    margin: 15px auto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(223, 215, 215);
     line-height: 0;
 }
 
